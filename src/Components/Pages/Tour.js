@@ -27,7 +27,7 @@ export default function Tour() {
           </div>
           
           
-          <div className='py-1 px-2 bg-[#2ba189] font-bold rounded pt-[5px] flex gap-2'>
+          <div className='py-1 px-4 bg-[#2ba189] font-bold rounded pt-[5px] flex gap-2'>
             <div>Search</div> 
             <div className='pt-[5px]'><BiSearch /></div>
             </div>

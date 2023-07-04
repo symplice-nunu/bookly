@@ -17,22 +17,22 @@ export default function UpComingEvent() {
             {
                 UpComingEventData.map((item) => {
                     return(
-                        <div className='bg-[white] rounded-3xl  pb-[40px]'>
+                        <div className={`${item.type === "2" ? "hidden" : null} bg-[white] rounded-3xl  pb-[40px]`}>
                             <div><img className='rounded-3xl w-[510px] h-[300px] object-cover' src={item.photo} /></div>
                             <div className='flex justify-between text-[13px] px-6 mt-4'>
-                            <div className='text-[#858585]'>{item.HotelName}</div>
+                                <div className='text-[#858585]'>{item.HotelName}</div>
                             </div>
                             <div className='px-6 mb-1 flex justify-between'>
-                            <div className='text-[16px] text-[#2ba189]'>{item.location}</div>
+                                <div className='text-[16px] text-[#2ba189]'>{item.location}</div>
                             </div>
                             <div className='bg-[#e6e5e5] h-[2px] mx-6 '></div>
                           
-                        <div className='flex justify-between px-7 py-2'>
+                            <div className='flex justify-between px-7 py-2'>
                             
-                            <div>
-                                <button className='bg-[#2ba189] px-6 py-2 rounded text-white'>Read More</button>
+                                <div>
+                                    <button className='bg-[#2ba189] px-6 py-2 rounded text-white'>Read More</button>
+                                </div>
                             </div>
-                        </div>
                         </div>
                     )
                 })

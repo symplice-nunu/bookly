@@ -34,7 +34,7 @@ export default function Tours() {
                             <div className='px-6 mb-1 flex justify-between'>
                             <div className='text-[13px] text-[#858585]'>{item.location}</div>
                             </div>
-                            <div className='bg-[#e6e5e5] h-[3px] mx-6  my-3'></div>
+                            <div className='bg-[#e6e5e5] h-[1px] mx-6  my-3'></div>
                             <div  className='flex justify-between'>
                             <div className='px-6 flex space-x-2 text-[13px] text-[#858585]'>
                             <div className='mt-[3px]'><BsClock /></div>
