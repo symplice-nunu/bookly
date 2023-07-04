@@ -1,64 +1,54 @@
+
 import React from 'react'
 import { CarTrendingData } from './Data/CarTrendingData'
 import { AiOutlinePauseCircle } from 'react-icons/ai'
 import { AiOutlineHeart } from 'react-icons/ai'
 import { FaGasPump } from 'react-icons/fa'
 import { MdAirlineSeatReclineExtra } from 'react-icons/md'
-import { AiOutlineArrowLeft } from 'react-icons/ai'
-import { AiOutlineArrowRight } from 'react-icons/ai'
 import { AiFillCar } from 'react-icons/ai'
 import { BiDollar } from 'react-icons/bi'
+import Vector243 from '../assets/booklimages/Vector243.png'
 
-export default function CarTrending() {
+export default function CarRental() {
     return (
-        <div className='px-[100px] pt-[60px] bg-gray-200'>
-        <div className='flex justify-between'>
-            <div className='text-[#2ba189] font-bold text-[25px] mb-3'>Car Trending</div>
-            <div className='flex gap-2'>
-                <div className='border rounded-full border-[#2ba189]  p-[10px] w-[40px] h-[40px]'><AiOutlineArrowLeft className='text-[#2ba189]' /></div>
-                <div className='border rounded-full bg-[#2ba189] border-[#2ba189] p-[10px] w-[40px] h-[40px]'><AiOutlineArrowRight className='text-white' /></div>
+        <div className='px-[100px] pt-[60px] '>
+        <div className=''>
+            <div className='text-[#2ba189] font-bold text-[25px] mb-3'>Find the best car hire deals in Rwanda</div>
+            <div>
+                <div className=''><img className='w-[230px]' src={Vector243} /></div>
+                <div className='text-[10px] ml-[150px]'>Here areb the most popular types of rental car you can pick up from a point near you in the next 30 days.</div>
             </div>
         </div>
-        <div className='mt-4 grid grid-cols-3 gap-3 justify-center bg-gray-200'>
+        <div className='mt-4 grid grid-cols-3 gap-3 justify-center '>
             {
                 CarTrendingData.map((item) => {
                     return(
-                        <div className={`${item.type != "1" ? "hidden" : null} bg-[white] rounded-3xl  pb-[40px]`}>
+                        <div className='bg-[white] rounded-3xl  pb-[40px]'>
                             <div><img className='rounded-3xl w-[510px] h-[300px] object-cover' src={item.photo} /></div>
                             <div className='flex justify-between text-[20px] px-6 mt-1 font-bold'>
-                            {/* <div className='flex space-x-2'> */}
-                            {/* <div className='flex mt-[4px]'>
-                                <div><AiTwotoneStar className='text-[#f8dc00]' /></div>
-                                <div><AiTwotoneStar className='text-[#f8dc00]' /></div>
-                                <div><AiTwotoneStar className='text-[#f8dc00]' /></div>
-                                <div><AiTwotoneStar className='text-[#f8dc00]' /></div>
-                                <div><AiTwotoneStar className='text-[#fbf5ce]' /></div>
-                            </div> */}
-                            {/* <div className='text-[#9a9a9a]'>{item.rate}</div> */}
-                            {/* </div> */}
-                            <div>{item.HotelName}</div>
-                            <div className='pt-1'><AiOutlineHeart /></div>
+                                <div>{item.HotelName}</div>
+                                <div className='pt-1'><AiOutlineHeart /></div>
                             </div>
                             <div className='px-6 mb-1 flex justify-between'>
-                            <div className='text-[13px] text-[#858585]'>{item.location}</div>
+                                <div className='text-[13px] text-[#858585]'>{item.location}</div>
                             </div>
                             <div className='bg-[#e6e5e5] h-[3px] mx-6  my-3'></div>
                             <div className='flex px-6'>
                             <div className=' flex text-[13px]'>
-                            <div className='mt-[3px]'><MdAirlineSeatReclineExtra className='text-[23px] text-[#f16f39]' /></div>
-                            <div className='pt-[5px]'>5</div>
+                                <div className='mt-[3px]'><MdAirlineSeatReclineExtra className='text-[23px] text-[#f16f39]' /></div>
+                                <div className='pt-[5px]'>5</div>
                             </div>
                             <div className='px-6 flex space-x-1 text-[13px]'>
-                            <div className='mt-[3px]'><AiOutlinePauseCircle className='text-[23px] text-[#f16f39]' /></div>
-                            <div className='pt-[5px]'>Auto</div>
+                                <div className='mt-[3px]'><AiOutlinePauseCircle className='text-[23px] text-[#f16f39]' /></div>
+                                <div className='pt-[5px]'>Auto</div>
                             </div>
                             <div className='px-6 flex space-x-1 text-[13px]'>
-                            <div className='mt-[3px]'><AiFillCar className='text-[23px] text-[#f16f39]' /></div>
-                            <div className='pt-[5px]'>4</div>
+                                <div className='mt-[3px]'><AiFillCar className='text-[23px] text-[#f16f39]' /></div>
+                                <div className='pt-[5px]'>4</div>
                             </div>
                             <div className='px-6 flex space-x-1 text-[13px]'>
-                            <div className='mt-[3px]'><FaGasPump className='text-[23px] text-[#f16f39]' /></div>
-                            <div className='pt-[5px]'>Gas</div>
+                                <div className='mt-[3px]'><FaGasPump className='text-[23px] text-[#f16f39]' /></div>
+                                <div className='pt-[5px]'>Gas</div>
                             </div>
                             </div>
                             {/* <div className='px-6 flex justify-between mt-5'>
@@ -83,7 +73,7 @@ export default function CarTrending() {
             }
 
    <div>
-    <button className='bg-[#2ba189] px-12 my-8 py-2 rounded text-white'>View All</button>
+    <button className='bg-[#2ba189] px-12 my-8 py-2 rounded text-white'>Show More</button>
    </div>
         </div>
     </div>
