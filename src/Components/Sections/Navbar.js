@@ -11,7 +11,9 @@ export default function Navbar() {
   return (
     <div class="flex justify-center">
         <div className='flex items-center justify-between text-white px-[110px] text-[12px] header'>
+            <Link to='/'>
             <div className='py-4'><img className='h-[40px]' src={logo_bookly} /></div>
+            </Link>
             <div className='flex py-8'>
                 {/* <div className='bg-teal-500 px-4 py-1 rounded text-white'>Hotels</div>
                 <div className='py-1'>Homestays</div>

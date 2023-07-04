@@ -2,6 +2,7 @@ import React from 'react'
 import { StaysnearYouData } from './Data/StaysnearYouData'
 import { AiTwotoneStar } from 'react-icons/ai'
 import Vector243 from '../assets/booklimages/Vector243.png'
+import Wishlist from './Wishlist'
 
 export default function FavoriteHotels() {
   return (
@@ -44,6 +45,7 @@ export default function FavoriteHotels() {
             }
         </div>
     </div>
+    <Wishlist />
     </div>
   )
 }
