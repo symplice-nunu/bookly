@@ -28,7 +28,7 @@ export default function BestSeller() {
                 BestSellerData.map((item) => {
                     return(
                         <div className='bg-white rounded-3xl  pb-[40px]'>
-                            <div><img className='rounded-3xl w-[510px] h-[300px] object-cover' src={item.photo} /></div>
+                            <div><img className='rounded-3xl w-full h-[300px] object-cover' src={item.photo} /></div>
                             <div className='flex justify-between px-6 mt-1'>
                             <div className='flex space-x-2'>
                             <div className='text-[#9a9a9a]'>{item.rate}</div>
