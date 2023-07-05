@@ -26,16 +26,6 @@ export default function CarTrending() {
                         <div className={`${item.type != "1" ? "hidden" : null} bg-[white] rounded-3xl  pb-[40px]`}>
                             <div><img className='rounded-3xl w-full h-[300px] object-cover' src={item.photo} /></div>
                             <div className='flex justify-between text-[20px] px-6 mt-1 font-bold'>
-                            {/* <div className='flex space-x-2'> */}
-                            {/* <div className='flex mt-[4px]'>
-                                <div><AiTwotoneStar className='text-[#f8dc00]' /></div>
-                                <div><AiTwotoneStar className='text-[#f8dc00]' /></div>
-                                <div><AiTwotoneStar className='text-[#f8dc00]' /></div>
-                                <div><AiTwotoneStar className='text-[#f8dc00]' /></div>
-                                <div><AiTwotoneStar className='text-[#fbf5ce]' /></div>
-                            </div> */}
-                            {/* <div className='text-[#9a9a9a]'>{item.rate}</div> */}
-                            {/* </div> */}
                             <div>{item.HotelName}</div>
                             <div className='pt-1'><AiOutlineHeart /></div>
                             </div>

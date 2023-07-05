@@ -16,7 +16,7 @@ export default function CarRental() {
             <div className='text-[#2ba189] font-bold text-[25px] mb-3'>Find the best car hire deals in Rwanda</div>
             <div>
                 <div className=''><img className='w-[230px]' src={Vector243} /></div>
-                <div className='text-[10px] ml-[150px]'>Here areb the most popular types of rental car you can pick up from a point near you in the next 30 days.</div>
+                <div className='text-[10px] ml-[150px]'>Here are the most popular types of rental car you can pick up from a point near you in the next 30 days.</div>
             </div>
         </div>
         <div className='mt-4 grid grid-cols-3 gap-3 justify-center '>
