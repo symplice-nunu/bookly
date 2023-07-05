@@ -10,18 +10,18 @@ export default function Tour() {
         <div>
         <h2 className='text-white pb-[13px] text-[23px]'>Tour & Attraction</h2>
         </div>
-        <div className='text-white flex gap-[2px] py-3'>
+        <div className='text-white flex gap-[2px] py-3 w-full'>
           <div className='flex h-[36px] bg-white px-3 rounded w-full'>
-            <div className=''><select className='text-[10px] h-[36px] border-none text-black w-[550px]'>
-                <option> Rwanda</option>
-                <option></option>
+            <div className='w-full'><select className='text-[10px] h-[36px] border-none text-black w-full'>
+                <option>Rwanda</option>
+                <option>Burundi</option>
               </select>
             </div>
           </div>
           <div className='flex h-[36px] bg-white px-3 rounded w-full'>
-            <div className=''><select className='text-[10px] h-[36px] border-none text-black w-[550px]'>
-                <option> Search attraction or activity</option>
-                <option></option>
+            <div className='w-full'><select className='text-[10px] h-[36px] border-none text-black w-full'>
+                <option>Search attraction or activity</option>
+                <option>Activity</option>
               </select>
             </div>
           </div>
