@@ -13,23 +13,23 @@ export default function Homestays() {
         <div>
         <h2 className='text-white pb-[13px] text-[23px]'>Where are you staying?</h2>
         </div>
-        <div className='text-white flex gap-[2px] py-3'>
+        <div className='text-white flex gap-[2px] py-3 w-full'>
           <div className='flex h-[34px] bg-white px-3 rounded w-full'>
             <div className='text-black pt-[7px]'><BiBed /></div>
-            <div className=''><input type="text" className='text-[10px] h-[26px] border-none text-black w-[260px]' placeholder='Enter a city, hotel, airport, address or landmark' /></div>
+            <div className='w-full'><input type="text" className='text-[10px] h-full border-none text-black w-full focus:ring-0' placeholder='Enter a city, hotel, airport, address or landmark' /></div>
           </div>
           <div className='h-[34px] flex bg-white px-3 rounded'>
             <div className='text-black pt-[7px]'><SlCalender /></div>
-            <div><input type="date" className='text-[10px] h-[26px] border-none text-black' /></div>
+            <div><input type="date" className='text-[10px] h-[26px] focus:ring-0 border-none text-black' /></div>
           </div>
           <div className='h-[34px] flex bg-white px-3 rounded'>
             <div className='text-black pt-[7px]'><SlCalender /></div>
-            <div><input type="date" className='text-[10px] h-[26px] border-none text-black' /></div>
+            <div><input type="date" className='text-[10px] h-[26px] focus:ring-0 border-none text-black' /></div>
           </div>
           <div className='h-[34px] flex bg-white px-3 rounded'>
             <div className='text-black pt-[7px]'><BsFillPersonFill /></div>
             <div>
-              <select className='text-[10px] h-[24px] border-none text-black mt-[1px]'>
+              <select className='text-[10px] h-full border-none focus:ring-0 text-black'>
                 <option>1 room, 2 guests</option>
               </select>
             </div>

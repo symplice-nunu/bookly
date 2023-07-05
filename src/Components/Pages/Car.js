@@ -19,7 +19,7 @@ export default function Car() {
           <div className='flex text-[10px] w-full'>
             <div className='w-full'>
               <div className='text-white w-full'>Pick-up Location</div>
-              <div><input type="text" className='text-[12px] border-gray-300 rounded-l h-[33px] w-full' placeholder='City, airport or station' /></div>
+              <div><input type="text" className='text-[12px] border-none focus:ring-0 rounded-l h-[33px] w-full' placeholder='City, airport or station' /></div>
             </div>
             <div className=''>
               <div className='text-white'>Pick-up Date</div>

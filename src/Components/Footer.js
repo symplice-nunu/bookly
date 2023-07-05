@@ -27,17 +27,17 @@ export default function Footer() {
         <div className='mx-[190px] py-8'>
         <div className='text-[21px] font-bold mb-2 text-white'>Site / Currency</div>
         <div className='mb-2'>
-            <select className='w-[240px] bg-transparent text-white border-white'>
+            <select className='w-[240px] bg-transparent focus:ring-0 text-white border-white'>
                 <option>United States</option>
             </select>
         </div>
         <div className='mb-2'>
-            <select className='w-[240px] bg-transparent text-white border-white'>
+            <select className='w-[240px] bg-transparent focus:ring-0 text-white border-white'>
                 <option>United States Dollar</option>
             </select>
         </div>
-        <div className='mb-2 flex'>
-            <div><input className='w-[160px] text-[8px] h-[30px]' type='email' placeholder='youremail123@gmail.com'/></div>
+        <div className='mb-2 flex '>
+            <div className='w-full'><input className='w-full text-[8px] border-none h-[30px] focus:ring-0' type='email' placeholder='youremail123@gmail.com'/></div>
             <div><button className='bg-black text-white px-4 py-2 text-[8px]'>SUBSCRIBE</button></div>
         </div>
         <div className='flex gap-5'>

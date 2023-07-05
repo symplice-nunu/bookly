@@ -42,7 +42,7 @@ export default function CarTrending() {
                             <div className='px-6 mb-1 flex justify-between'>
                                 <div className='text-[13px] text-[#858585]'>{item.location}</div>
                             </div>
-                            <div className='bg-[#e6e5e5] h-[3px] mx-6  my-3'></div>
+                            <div className='bg-[#e6e5e5] h-[1px] mx-6  my-3'></div>
                             <div className='flex justify-between px-6'>
                                 <div className=' flex text-[13px]'>
                                     <div className='mt-[3px]'><MdAirlineSeatReclineExtra className='text-[23px] text-[#f16f39]' /></div>
