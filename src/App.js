@@ -8,6 +8,7 @@ import Car from './Components/Pages/Car'
 import Event from './Components/Pages/Event'
 import Homestays from './Components/Pages/Homestays'
 import Tour from './Components/Pages/Tour'
+import Hotel from "./Components/Pages/Hotel";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Navbar />
         <Routes>
         <Route exact path="/" element={<Home />} ></Route>
+        <Route exact path="/hotels" element={<Hotel />} ></Route>
         <Route exact path="/car" element={<Car />} ></Route>
         <Route exact path="/event" element={<Event />} ></Route>
         <Route exact path="/homestays" element={<Homestays />} ></Route>

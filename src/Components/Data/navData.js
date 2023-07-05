@@ -5,7 +5,7 @@ import { FaCarSide } from 'react-icons/fa'
 import { BsCalendar2Event } from 'react-icons/bs'
 export const navData = [
     {
-        path: '/',
+        path: '/hotels',
         logoNew: <RiHotelLine />,
         Hotels: 'Hotels'
     },

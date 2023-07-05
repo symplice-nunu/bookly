@@ -15,11 +15,6 @@ export default function Navbar() {
             <div className='py-4'><img className='h-[40px]' src={logo_bookly} /></div>
             </Link>
             <div className='flex py-8'>
-                {/* <div className='bg-teal-500 px-4 py-1 rounded text-white'>Hotels</div>
-                <div className='py-1'>Homestays</div>
-                <div className='py-1'>Tour</div>
-                <div className='py-1'>Car</div>
-                <div className='py-1'>Event</div> */}
                 {
                     navData.map((item) => {
                         return(

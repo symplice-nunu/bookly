@@ -25,19 +25,18 @@ export default function BestPromotion() {
                         <div className='bg-[white] rounded-3xl  pb-[40px]'>
                             <div><img className='rounded-3xl w-full h-[300px] object-cover' src={item.photo} /></div>
                             <div className='flex justify-between px-6 mt-1'>
-                            <div className='flex space-x-2'>
-                            <div className='flex mt-[4px]'>
-                                <div><AiTwotoneStar className='text-[#f8dc00]' /></div>
-                                <div><AiTwotoneStar className='text-[#f8dc00]' /></div>
-                                <div><AiTwotoneStar className='text-[#f8dc00]' /></div>
-                                <div><AiTwotoneStar className='text-[#f8dc00]' /></div>
-                                <div><AiTwotoneStar className='text-[#fbf5ce]' /></div>
-                            </div>
-                            <div className='text-[#9a9a9a]'>{item.rate}</div>
+                                <div className='flex space-x-2'>
+                                    <div className='flex mt-[4px]'>
+                                        <div><AiTwotoneStar className='text-[#f8dc00]' /></div>
+                                        <div><AiTwotoneStar className='text-[#f8dc00]' /></div>
+                                        <div><AiTwotoneStar className='text-[#f8dc00]' /></div>
+                                        <div><AiTwotoneStar className='text-[#f8dc00]' /></div>
+                                        <div><AiTwotoneStar className='text-[#fbf5ce]' /></div>
+                                    </div>
+                                <div className='text-[#9a9a9a]'>{item.rate}</div>
                             </div>
                             <div className='flex mt-[4px] font-bold'>
-                            <div><AiOutlineHeart /></div>
-                            {/* <div><BsBookmark /></div> */}
+                                <div><AiOutlineHeart /></div>
                             </div>
                             </div>
                             <div  className='px-6 mb-1 font-bold'>{item.HotelName}</div>
@@ -55,10 +54,6 @@ export default function BestPromotion() {
                             <div className='text-[20px]'>{item.qty}</div>
                             </div>
                             </div>
-                            {/* <div className='px-6 flex justify-between mt-5'>
-                            <div className='text-[18px] mt-[14px]'><b><del className='text-[#f6611f]'><span className='text-[#f6611f]'>$129</span></del> / 100</b></div>
-                            <div><button className='px-8 py-3 bg-[#2ba189] text-white rounded-full'>Book Now</button></div>
-                            </div> */}
                         </div>
                     )
                 })
