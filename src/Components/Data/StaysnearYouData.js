@@ -30,7 +30,7 @@ export const StaysnearYouData = [
         discount: '199',
     },
     {
-        photo: 'http://localhost:3000/mhotel.jpg',
+        photo: 'http://localhost:3000/ubumwe.jpg',
         rate: 'Good 7.5',
         HotelName: 'M Hotel',
         location: 'Downtown',
