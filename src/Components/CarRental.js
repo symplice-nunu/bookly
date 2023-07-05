@@ -24,7 +24,7 @@ export default function CarRental() {
                 CarTrendingData.map((item) => {
                     return(
                         <div className='bg-[white] rounded-3xl  pb-[40px]'>
-                            <div><img className='rounded-3xl w-[510px] h-[300px] object-cover' src={item.photo} /></div>
+                            <div><img className='rounded-3xl w-full h-[300px] object-cover' src={item.photo} /></div>
                             <div className='flex justify-between text-[20px] px-6 mt-1 font-bold'>
                                 <div>{item.HotelName}</div>
                                 <div className='pt-1'><AiOutlineHeart /></div>

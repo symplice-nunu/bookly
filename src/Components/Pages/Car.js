@@ -15,15 +15,15 @@ export default function Car() {
         <div>
         <h1 className='text-white pb-[13px] text-[33px]'>Find the best car rental deals</h1>
         </div>
-        <div className=' rounded-t bg-[#2ba189] flex gap-[2px] px-3 py-5 w-[770px]'>
-          <div className='flex text-[10px] '>
-            <div>
-              <div className='text-white'>Pick-up Location</div>
-              <div><input type="text" className='text-[12px] border-gray-300 rounded-l h-[33px] w-[350PX]' placeholder='City, airport or station' /></div>
+        <div className=' rounded-t bg-[#2ba189] flex gap-[2px] px-3 py-5 w-full'>
+          <div className='flex text-[10px] w-full'>
+            <div className='w-full'>
+              <div className='text-white w-full'>Pick-up Location</div>
+              <div><input type="text" className='text-[12px] border-gray-300 rounded-l h-[33px] w-full' placeholder='City, airport or station' /></div>
             </div>
             <div className=''>
               <div className='text-white'>Pick-up Date</div>
-              <div className='border pl-2 pr-12 py-2 bg-white'>03/06/2023</div>
+              <div className='border pl-2 pr-[80px] py-2 bg-white'>03/06/2023</div>
             </div>
             <div className=''>
               <div className='text-white'>Time</div>
@@ -34,7 +34,7 @@ export default function Car() {
             </div>
             <div className=''>
               <div className='text-white'>Drop-off Date</div>
-              <div className='border pl-2 pr-12 py-2 bg-white'>03/06/2023</div>
+              <div className='border pl-2 pr-[80px] py-2 bg-white'>03/06/2023</div>
             </div>
             <div className=''>
               <div className='text-white'>Time</div>
@@ -45,7 +45,7 @@ export default function Car() {
             </div>
           </div>
         </div>
-          <div className='flex justify-between rounded-b bg-[#2ba189] pb-4 px-3 w-[770px]'>
+          <div className='flex justify-between rounded-b bg-[#2ba189] pb-4 px-3 w-full'>
             <div>
               <div className='flex gap-2 pt-2'>
                 <div><input type="checkbox" /></div>
