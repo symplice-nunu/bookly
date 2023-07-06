@@ -4,6 +4,7 @@ import { CiMapPin } from 'react-icons/ci'
 import { IoIosBicycle } from 'react-icons/io'
 import { AiOutlineClockCircle } from 'react-icons/ai'
 import GoodToKnow from './GoodToKnow'
+import HotelDescription from './HotelDescription'
 
 export default function HotelSelection() {
   return (
@@ -119,6 +120,7 @@ export default function HotelSelection() {
             </div>
     </div>
             <GoodToKnow />
+            <HotelDescription />
     </div>
   )
 }

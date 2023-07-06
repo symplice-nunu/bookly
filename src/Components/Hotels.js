@@ -10,16 +10,16 @@ export default function Hotels() {
   return (
     <div>
       <div className='flex gap-1 w-full px-[170px] pb-12'>
-      <div><img className='rounded-xl h-full' src={bedroom} /></div>
-      <div className='flex gap-1'>
-        <div className='space-y-1'>
-          <div className='w-[250px] rounded'><img className='rounded h-[205px] object-cover' src={dining} /></div>
-          <div className='w-[250px] rounded'><img className='rounded h-[205px] object-cover' src={garden} /></div>
-        </div>
-        <div className='space-y-1'>
-          <div className='w-[250px] rounded'><img className='rounded h-[205px] object-cover' src={swimmingpool} /></div>
-          <div className='w-[250px] rounded'><img className='rounded h-[205px] object-cover' src={weddingroom} /></div>
-        </div>
+        <div><img className='rounded-xl h-full' src={bedroom} /></div>
+        <div className='flex gap-1'>
+          <div className='space-y-1'>
+            <div className='w-[250px] rounded'><img className='rounded h-[205px] object-cover' src={dining} /></div>
+            <div className='w-[250px] rounded'><img className='rounded h-[205px] object-cover' src={garden} /></div>
+          </div>
+          <div className='space-y-1'>
+            <div className='w-[250px] rounded'><img className='rounded h-[205px] object-cover' src={swimmingpool} /></div>
+            <div className='w-[250px] rounded'><img className='rounded h-[205px] object-cover' src={weddingroom} /></div>
+          </div>
       </div>
     </div>
     <HotelSelection />
