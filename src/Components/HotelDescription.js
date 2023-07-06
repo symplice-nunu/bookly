@@ -4,6 +4,7 @@ import dining from '../assets/booklimages/images/hotel_dining room.jpg'
 import weddingroom from '../assets/booklimages/images/hotel_bedroom.jpg'
 import garden from '../assets/booklimages/images/hotel_gym.jpg'
 import swimmingpool from '../assets/booklimages/images/hotel_swimming_pool.jpeg'
+import Amenities from './Amenities'
 
 export default function HotelDescription() {
   return (
@@ -29,7 +30,12 @@ export default function HotelDescription() {
           </div>
       </div>
     </div>
-        
+    <div>
+        <div className='font-bold text-[20px] pb-3'>Ubumwe Grand Hotel</div>
+        <div className='text-[10px] pb-1'>Set in Rwanda  features a terrace, restaurant, bar, and free WiFi throughout the property.</div>
+        <div className='text-[10px] pb-1'>The property is around 2.5 km from Opéra Bastille, 2 km from Paris-Gare-de-Lyon and 4.5 km from Notre Dame Cathedral.</div>
+    </div>
+       <Amenities /> 
     </div>
   )
 }
