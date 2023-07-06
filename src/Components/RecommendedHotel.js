@@ -1,4 +1,5 @@
 import React, { useState }  from 'react'
+import SectionNavigation from './SectionNavigation';
 
 export default function RecommendedHotel() {
   const [activeTab, setActiveTab] = useState(0);
@@ -58,8 +59,16 @@ export default function RecommendedHotel() {
       <div className='h-[1px] w-full bg-gray-300'></div>
 
       {/* Tab content */}
-      <div className="mt-2 p-4 border border-gray-300 rounded-b-md">
-        {activeTab === 0 && <p>Tab 1 Content</p>}
+      <div className="mt-2">
+        {activeTab === 0 && 
+        <div>
+          <div>
+      {/* Other content */}
+      <SectionNavigation />
+      {/* Other content */}
+    </div>
+        </div>
+        }
         {activeTab === 1 && <p>Tab 2 Content</p>}
         {activeTab === 2 && <p>Tab 3 Content</p>}
       </div>
