@@ -259,7 +259,7 @@ const SectionNavigation = () => {
         {
           images.slice(lastImageIndex, currentImageIndex).map((item, idx) => 
       <div className='h-[50%] flex flex-col gap-2 justify-center w-full'>
-          <div className='relative  h-[190.08px] w-full'>
+          <div className='relative  h-[190.08px] w-full bg-red-500'>
             <img
               key={idx}
               src={item.photo}
@@ -269,7 +269,7 @@ const SectionNavigation = () => {
             <span className='text-white text-[17px] absolute bottom-12 left-5'>{item.start}</span>
             <span className='text-white text-[17px] absolute bottom-5 left-5'>{item.name}</span>
           </div>
-          <div className='flex px-4'>
+          <div className='flex px-4 '>
             <div><CiMapPin /></div>
             <div className='text-[10px]'>{item.miles} miles from hotel</div>
           </div>
