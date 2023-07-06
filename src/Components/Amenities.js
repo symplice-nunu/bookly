@@ -20,13 +20,13 @@ export default function Amenities() {
                 })
             }
         </div>
-        <div className='mt-6'>
+        <div className='mt-6 w-full'>
             {
                 AmenitiesNewData.map((item) => {
                     return(
-                        <table className='flex justify-between'>
-                            <tr>
-                                <td className='w-[300px]'>{item.name}</td>
+                        <table className='flex justify-between w-full'>
+                            <tr className='w-full'>
+                                <td className='w-[300px] pr-24'>{item.name}</td>
                                 <td>{item.icons}</td>
                                 <td className='w-[200px] text-[12px]'>{item.subaname}</td>
                                 <td>{item.icons}</td>
@@ -42,7 +42,7 @@ export default function Amenities() {
                 })
             }
         </div>
-        <div className='my-3'>
+        <div className='my-14'>
             <img src={map} />
         </div>
         <RecommendedHotel />

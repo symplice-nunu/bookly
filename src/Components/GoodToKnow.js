@@ -3,7 +3,7 @@ import { GoodToKnowData } from './Data/GoodToKnowData'
 
 export default function GoodToKnow() {
   return (
-    <div className='bg-gray-100 px-[260px] py-[50px]'>
+    <div className='bg-gray-100 px-[360px] py-[50px]'>
         <div className='text-[22px] font-bold mb-8'>Good To Know</div>
         <div>
             {

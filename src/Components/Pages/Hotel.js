@@ -7,7 +7,7 @@ import Hotels from '../Hotels'
 export default function Hotel() {
   return (
     <div className='bg-[#f8f8f8] pt-36'>
-      <div className=' mb-[50px] mx-[130px] flex border border-gray-300 shadow-xl bg-white rounded-r-xl rounded-l-xl'>
+      <div className=' mb-[50px] mx-[360px] flex border border-gray-300 shadow-xl bg-white rounded-r-xl rounded-l-xl'>
         <div className='w-full flex px-5 py-2'>
             <div className='pt-5'><AiOutlineSearch className='text-[30px] text-[#5aa389]' /></div>
             <div>

@@ -8,7 +8,7 @@ import Amenities from './Amenities'
 
 export default function HotelDescription() {
   return (
-    <div className='px-[260px] py-[20px]'>
+    <div className='px-[360px] py-[20px]'>
         <div className='font-bold text-[24px] pb-3'>Hotel Description</div>
         <div className='flex gap-1 w-full pb-12'>
         <div className='w-full'><img className='rounded h-[185px] w-full ' src={bedroom} /></div>

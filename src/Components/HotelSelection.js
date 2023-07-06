@@ -9,7 +9,7 @@ import HotelDescription from './HotelDescription'
 export default function HotelSelection() {
   return (
     <div>
-        <div className='px-[260px]'>
+        <div className='px-[360px]'>
         <div className='flex justify-between'>
             <div className='flex gap-2'>
                 <div className='text-[25px] font-bold'>UBUMWE GRAND HOTEL</div>
