@@ -3,10 +3,12 @@ import { AiFillStar } from 'react-icons/ai'
 import { CiMapPin } from 'react-icons/ci'
 import { IoIosBicycle } from 'react-icons/io'
 import { AiOutlineClockCircle } from 'react-icons/ai'
+import GoodToKnow from './GoodToKnow'
 
 export default function HotelSelection() {
   return (
-    <div className='px-[260px]'>
+    <div>
+        <div className='px-[260px]'>
         <div className='flex justify-between'>
             <div className='flex gap-2'>
                 <div className='text-[25px] font-bold'>UBUMWE GRAND HOTEL</div>
@@ -115,6 +117,8 @@ export default function HotelSelection() {
                     </div>
                 </div>
             </div>
+    </div>
+            <GoodToKnow />
     </div>
   )
 }
