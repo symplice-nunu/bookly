@@ -4,7 +4,7 @@ import SlidingImages from '../Slide/SlidingImages';
 
 export default function BodyText() {
   return (
-    <div>
+    <div className='relative'>
             <SlidingImages />
         <div className='flex absolute top-12'>
             <div className=' w-full text-left py-[240px] px-[190px]'>
@@ -24,7 +24,7 @@ export default function BodyText() {
                     <div><input className='px-3 py-2 w-full bg-[#2ba189] rounded text-white mb-5' type="submit" value='Search'/></div>
                 </div>
             </div>
-        </div>
+    </div>
     </div>
   )
 }
