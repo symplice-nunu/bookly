@@ -12,7 +12,6 @@ import PopularDestination from './PopularDestination'
 export default function Home() {
   return (
    <div>
-   
     <BodyText />
     <TopDestination />
     <BestSeller />

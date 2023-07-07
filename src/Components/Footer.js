@@ -2,6 +2,7 @@ import React from 'react'
 import Copyright from './Copyright'
 import { FooterData } from './Data/FooterData'
 import { SocialMediaData } from './Data/SocialMediaData'
+import SlidingImages from './Slide/SlidingImages'
 
 export default function Footer() {
   return (

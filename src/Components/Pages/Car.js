@@ -10,8 +10,8 @@ import CarRental from '../CarRental'
 export default function Car() {
   return (
     <div className='bg-[#f8f8f8]'>
-      <div className='mt-24 pt-1 '>
-      <div className="bg-[url('http://localhost:3000/carrent.jpg')] bg-cover my-8 px-[130px] py-[85px]">
+      <div className='pt-1 '>
+      <div className="bg-[url('http://localhost:3000/carrent.jpg')] bg-cover my-8 px-[130px] py-[85px] mt-40">
         <div>
         <h1 className='text-white pb-[13px] text-[33px]'>Find the best car rental deals</h1>
         </div>

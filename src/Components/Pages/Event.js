@@ -5,8 +5,8 @@ import UpComingEventNew from '../UpComingEventNew'
 export default function Event() {
   return (
     <div className='bg-[#f8f8f8]'>
-      <div className='mt-24 pt-1 '>
-      <div className="bg-[url('http://localhost:3000/event.jpg')] bg-cover my-8 px-[300px] py-[85px] mx-4">
+      <div className='pt-1 '>
+      <div className="bg-[url('http://localhost:3000/event.jpg')] bg-cover my-8 px-[300px] py-[85px] mx-4 mt-40">
         <div>
         <h2 className='text-white pb-[13px] text-[23px]'>Events</h2>
         </div>

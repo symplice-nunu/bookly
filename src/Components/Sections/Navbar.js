@@ -9,7 +9,7 @@ export default function Navbar() {
     const location = useLocation();
     const active = location.pathname
   return (
-    <div class="flex justify-center">
+    <div class="flex justify-center absolute w-[100%] z-[1]">
         <div className='flex items-center justify-between text-white px-[110px] text-[12px] header'>
             <Link to='/'>
             <div className='py-4'><img className='h-[40px]' src={logo_bookly} /></div>
