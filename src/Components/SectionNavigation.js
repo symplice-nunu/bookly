@@ -21,27 +21,27 @@ const SectionNavigation = () => {
                 <div><AiFillStar className='text-[#f65c42]' /></div>
                 <div><AiFillStar className='text-[#f65c42]' /></div>
             </div>,
-      rate: <div className='flex gap-2 py-3'>
-              <div className='text-[18px] font-bold'>4.4</div>
-              <div className='mt-2'>
-                  <div className='flex gap-1 pt-[1px]'>
-                      <div><IoIosBicycle  className='text-[10px] mt-[-2px]'/></div>
-                      <div className='bg-[#00aa6c] rounded-full w-2 h-2'></div>
-                      <div className='bg-[#00aa6c] rounded-full w-2 h-2'></div>
-                      <div className='bg-[#00aa6c] rounded-full w-2 h-2'></div>
-                      <div className='bg-[#00aa6c] rounded-full w-2 h-2'></div>
-                      <div className='flex'>
-                          <div className='bg-[#00aa6c] rounded-l-full w-[4px] h-2'></div>
-                          <div className='border border-[#00aa6c] rounded-r-full w-[4px] h-2'></div>
-                      </div>
-                  </div>
-              </div>
-              <div className='text-[10px] pt-[5px]'>100 Reviews</div>
-            </div>,
-      name: 'SO / Paris Hotel',
+      rate:  <div className='flex gap-2 py-3'>
+                <div className='text-[18px] font-bold'>4.4</div>
+                <div className='mt-2'>
+                    <div className='flex gap-1 pt-[1px]'>
+                        <div><IoIosBicycle  className='text-[10px] mt-[-2px]'/></div>
+                        <div className='bg-[#00aa6c] rounded-full w-2 h-2'></div>
+                        <div className='bg-[#00aa6c] rounded-full w-2 h-2'></div>
+                        <div className='bg-[#00aa6c] rounded-full w-2 h-2'></div>
+                        <div className='bg-[#00aa6c] rounded-full w-2 h-2'></div>
+                        <div className='flex'>
+                            <div className='bg-[#00aa6c] rounded-l-full w-[4px] h-2'></div>
+                            <div className='border border-[#00aa6c] rounded-r-full w-[4px] h-2'></div>
+                        </div>
+                    </div>
+                </div>
+                <div className='text-[10px] pt-[5px]'>100 Reviews</div>
+              </div>,
+      name: 'Maison Breguet',
       miles: '1.60',
-      amount: '778',
-      photo: bedroom,
+      amount: '123',
+      photo: swimmingpool,
     },
     {
       start: <div className='flex mt-3'>
@@ -201,27 +201,56 @@ const SectionNavigation = () => {
                 <div><AiFillStar className='text-[#f65c42]' /></div>
                 <div><AiFillStar className='text-[#f65c42]' /></div>
             </div>,
-      rate:  <div className='flex gap-3 py-5'>
-              <div className='text-[23px] font-bold'>4.4</div>
-              <div className='mt-2'>
-                  <div className='flex gap-1'>
-                      <div><IoIosBicycle  className='text-[10px] mt-[-2px]'/></div>
-                      <div className='bg-[#00aa6c] rounded-full w-2 h-2'></div>
-                      <div className='bg-[#00aa6c] rounded-full w-2 h-2'></div>
-                      <div className='bg-[#00aa6c] rounded-full w-2 h-2'></div>
-                      <div className='bg-[#00aa6c] rounded-full w-2 h-2'></div>
-                      <div className='flex'>
-                          <div className='bg-[#00aa6c] rounded-l-full w-[4px] h-2'></div>
-                          <div className='border border-[#00aa6c] rounded-r-full w-[4px] h-2'></div>
-                      </div>
-                  </div>
-              </div>
-              <div className='text-[10px]'>100 Reviews</div>
-            </div>,
-      name: 'SO / Paris Hotel',
+      rate:  <div className='flex gap-2 py-3'>
+                <div className='text-[18px] font-bold'>4.4</div>
+                <div className='mt-2'>
+                    <div className='flex gap-1 pt-[1px]'>
+                        <div><IoIosBicycle  className='text-[10px] mt-[-2px]'/></div>
+                        <div className='bg-[#00aa6c] rounded-full w-2 h-2'></div>
+                        <div className='bg-[#00aa6c] rounded-full w-2 h-2'></div>
+                        <div className='bg-[#00aa6c] rounded-full w-2 h-2'></div>
+                        <div className='bg-[#00aa6c] rounded-full w-2 h-2'></div>
+                        <div className='flex'>
+                            <div className='bg-[#00aa6c] rounded-l-full w-[4px] h-2'></div>
+                            <div className='border border-[#00aa6c] rounded-r-full w-[4px] h-2'></div>
+                        </div>
+                    </div>
+                </div>
+                <div className='text-[10px] pt-[5px]'>100 Reviews</div>
+              </div>,
+      name: 'Maison Breguet',
       miles: '1.60',
-      amount: '555',
-      photo: bedroom
+      amount: '256',
+      photo: garden,
+    },{
+      start: <div className='flex mt-3'>
+                <div><AiFillStar className='text-[#f65c42]' /></div>
+                <div><AiFillStar className='text-[#f65c42]' /></div>
+                <div><AiFillStar className='text-[#f65c42]' /></div>
+                <div><AiFillStar className='text-[#f65c42]' /></div>
+                <div><AiFillStar className='text-[#f65c42]' /></div>
+            </div>,
+      rate:  <div className='flex gap-2 py-3'>
+                <div className='text-[18px] font-bold'>4.4</div>
+                <div className='mt-2'>
+                    <div className='flex gap-1 pt-[1px]'>
+                        <div><IoIosBicycle  className='text-[10px] mt-[-2px]'/></div>
+                        <div className='bg-[#00aa6c] rounded-full w-2 h-2'></div>
+                        <div className='bg-[#00aa6c] rounded-full w-2 h-2'></div>
+                        <div className='bg-[#00aa6c] rounded-full w-2 h-2'></div>
+                        <div className='bg-[#00aa6c] rounded-full w-2 h-2'></div>
+                        <div className='flex'>
+                            <div className='bg-[#00aa6c] rounded-l-full w-[4px] h-2'></div>
+                            <div className='border border-[#00aa6c] rounded-r-full w-[4px] h-2'></div>
+                        </div>
+                    </div>
+                </div>
+                <div className='text-[10px] pt-[5px]'>100 Reviews</div>
+              </div>,
+      name: 'Maison Breguet',
+      miles: '1.60',
+      amount: '256',
+      photo: garden,
     },
   ];
   const [lastImageIndex, setLastImageIndex] = useState(0);
