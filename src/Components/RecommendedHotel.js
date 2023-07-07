@@ -1,5 +1,7 @@
 import React, { useState }  from 'react'
 import SectionNavigation from './SectionNavigation';
+import SectionNavigationTopHotel from './SectionNavigationTopHotel';
+import SectionNavigationPopularHotel from './SectionNavigationPopularHotel';
 
 export default function RecommendedHotel() {
   const [activeTab, setActiveTab] = useState(0);
@@ -63,14 +65,24 @@ export default function RecommendedHotel() {
         {activeTab === 0 && 
         <div>
           <div>
-      {/* Other content */}
-      <SectionNavigation />
-      {/* Other content */}
-    </div>
+            <SectionNavigation />
+          </div>
         </div>
         }
-        {activeTab === 1 && <p>Tab 2 Content</p>}
-        {activeTab === 2 && <p>Tab 3 Content</p>}
+        {activeTab === 1 && 
+        <div>
+        <div>
+          <SectionNavigationTopHotel />
+        </div>
+      </div>
+      }
+        {activeTab === 2 && 
+        <div>
+        <div>
+          <SectionNavigationPopularHotel />
+        </div>
+      </div>
+      }
       </div>
     </div>
     </div>

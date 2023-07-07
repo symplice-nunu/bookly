@@ -11,7 +11,7 @@ import { IoIosBicycle } from 'react-icons/io'
 import { CiMapPin } from 'react-icons/ci'
 import { FaPoundSign } from 'react-icons/fa'
 
-const SectionNavigation = () => {
+const SectionNavigationTopHotel = () => {
   const images = [
     {
       start: <div className='flex mt-3'>
@@ -292,5 +292,5 @@ const SectionNavigation = () => {
   );
 };
 
-export default SectionNavigation;
+export default SectionNavigationTopHotel;
 
