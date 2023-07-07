@@ -3,6 +3,7 @@ import { AiOutlineSearch } from 'react-icons/ai'
 import { MdDateRange } from 'react-icons/md'
 import { AiFillCheckCircle } from 'react-icons/ai'
 import Hotels from '../Hotels'
+import ExploreOption from '../ExploreOption'
 
 export default function Hotel() {
   return (
@@ -50,6 +51,7 @@ export default function Hotel() {
         </div>
       </div>
       <div><Hotels /></div>
+      <ExploreOption />
     </div>
   )
 }
