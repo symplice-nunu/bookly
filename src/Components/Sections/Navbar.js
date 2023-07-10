@@ -2,7 +2,7 @@ import React from 'react'
 import usaLogo from '../../assets/usa.png'
 import { RxTriangleDown } from 'react-icons/rx'
 import logo_bookly from '../../assets/booklimages/logo_bookly.png'
-import { navData } from '../Data/navData'
+import { navData } from '../../Data/navData'
 import { Link, useLocation } from 'react-router-dom'
 
 export default function Navbar() {

@@ -1,14 +1,14 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import './App.css';
-import Home from './Components/Home';
+import Home from './Components/Sections/Home'
 import Navbar from './Components/Sections/Navbar'
-import Footer from './Components/Footer';
-import NotFound from './Components/Pages/404'
-import Car from './Components/Pages/Car'
-import Event from './Components/Pages/Event'
-import Homestays from './Components/Pages/Homestays'
-import Tour from './Components/Pages/Tour'
-import Hotel from "./Components/Pages/Hotel";
+import Footer from './Components/Sections/Footer';
+import NotFound from './Pages/404'
+import Car from './Pages/Car'
+import Event from './Pages/Event'
+import Homestays from './Pages/Homestays'
+import Tour from './Pages/Tour'
+import Hotel from "./Pages/Hotel";
 
 function App() {
   return (
