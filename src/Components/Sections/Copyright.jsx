@@ -22,7 +22,7 @@ function FooterImages(props) {
 
 export default function Copyright() {
   return (
-    <div className="px-[100px] py-[3px] flex">
+    <div className="px-[100px] mt-3 py-[3px] bg-white w-full flex fixed bottom-0 left-0">
       <div className="py-[2px] mr-40">
         Copyright ©{currentYear} by Bookly Africa
       </div>
