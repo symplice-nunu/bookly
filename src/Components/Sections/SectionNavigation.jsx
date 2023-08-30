@@ -431,7 +431,7 @@ const SectionNavigation = () => {
                 alt=""
                 className="rounded-t-xl object-cover w-full h-full"
               />
-              <span className="text-white-500 text-[17px] absolute bottom-12 left-5">
+              <span className="text-white text-[17px] absolute bottom-12 left-5">
                 {item.start}
               </span>
               <span className="text-white text-[17px] absolute bottom-5 left-5">
