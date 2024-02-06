@@ -6,7 +6,7 @@ import { SocialMediaData } from '../../Data/SocialMediaData'
 export default function Footer() {
   return (
     <div>
-        <div className="bg-[url('http://localhost:3000/footer.jpg')] bg-cover pb-[30px] flex justify-between">
+        <div className="bg-[url('https://bookly-roan.vercel.app/footer.jpg')] bg-cover pb-[30px] flex justify-between">
         <div className='flex justify-between text-white py-8 gap-[120px]  px-[100px]'>
         {
             FooterData.map((item) => {

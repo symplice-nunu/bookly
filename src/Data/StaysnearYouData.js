@@ -1,6 +1,6 @@
 export const StaysnearYouData = [
     {
-        photo: 'http://localhost:3000/ubumwe.jpg',
+        photo: 'https://bookly-roan.vercel.app/ubumwe.jpg',
         rate: 'Very good 8.2',
         HotelName: 'Ubumwe Grand Hotel',
         location: '',
@@ -10,7 +10,7 @@ export const StaysnearYouData = [
         discount: '199',
     },
     {
-        photo: 'http://localhost:3000/mariot.jpg',
+        photo: 'https://bookly-roan.vercel.app/mariot.jpg',
         rate: 'Very good 8.2',
         HotelName: 'Kigali Marriot Hotel',
         location: '',
@@ -20,7 +20,7 @@ export const StaysnearYouData = [
         discount: '199',
     },
     {
-        photo: 'http://localhost:3000/saint.jpg',
+        photo: 'https://bookly-roan.vercel.app/saint.jpg',
         rate: 'Good 7.1',
         HotelName: 'Saint Fmille Hotel',
         location: '',
@@ -30,7 +30,7 @@ export const StaysnearYouData = [
         discount: '199',
     },
     {
-        photo: 'http://localhost:3000/ubumwe.jpg',
+        photo: 'https://bookly-roan.vercel.app/ubumwe.jpg',
         rate: 'Good 7.5',
         HotelName: 'M Hotel',
         location: 'Downtown',

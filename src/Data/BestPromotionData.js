@@ -1,6 +1,6 @@
 export const BestPromotionData = [
     {
-        photo: 'http://localhost:3000/kivu.jpg',
+        photo: 'https://bookly-roan.vercel.app/kivu.jpg',
         rate: '50 Reviews',
         HotelName: '2 Days at Lake Kivu',
         location: 'Kigali,Rwanda',
@@ -10,7 +10,7 @@ export const BestPromotionData = [
         discount: '199',
     },
     {
-        photo: 'http://localhost:3000/bisoke.jpg',
+        photo: 'https://bookly-roan.vercel.app/bisoke.jpg',
         rate: '50 Reviews',
         HotelName: '1 Day trip of Bisoke hiking starting from Kigali',
         location: 'Kigali,Rwanda',
@@ -20,7 +20,7 @@ export const BestPromotionData = [
         discount: '199',
     },
     {
-        photo: 'http://localhost:3000/kigalitour.jpg',
+        photo: 'https://bookly-roan.vercel.app/kigalitour.jpg',
         rate: '50 Reviews',
         HotelName: 'Kigali City Tour',
         location: 'Kigali,Rwanda',

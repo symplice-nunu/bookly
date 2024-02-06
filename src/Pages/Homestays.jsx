@@ -9,7 +9,7 @@ export default function Homestays() {
   return (
     <div>
       <div className='pt-1'>
-      <div className="bg-[url('http://localhost:3000/staying.jpg')] bg-cover my-8 px-[300px] py-[85px] mt-40">
+      <div className="bg-[url('https://bookly-roan.vercel.app/staying.jpg')] bg-cover my-8 px-[300px] py-[85px] mt-40">
         <div>
         <h2 className='text-white pb-[13px] text-[23px]'>Where are you staying?</h2>
         </div>

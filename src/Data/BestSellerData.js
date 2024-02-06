@@ -1,6 +1,6 @@
 export const BestSellerData = [
     {
-        photo: 'http://localhost:3000/ubumwe.jpg',
+        photo: 'https://bookly-roan.vercel.app/ubumwe.jpg',
         rate: '4.4',
         HotelName: 'Ubumwe Grand Hotel',
         location: 'Kigali,Rwanda',
@@ -10,7 +10,7 @@ export const BestSellerData = [
         discount: '199',
     },
     {
-        photo: 'http://localhost:3000/mariot.jpg',
+        photo: 'https://bookly-roan.vercel.app/mariot.jpg',
         rate: '4.4',
         HotelName: 'Kigali Marriot Hotel',
         location: 'Kigali,Rwanda',
@@ -20,7 +20,7 @@ export const BestSellerData = [
         discount: '199',
     },
     {
-        photo: 'http://localhost:3000/saint.jpg',
+        photo: 'https://bookly-roan.vercel.app/saint.jpg',
         rate: '4.4',
         HotelName: 'Saint Fmille Hotel',
         location: 'Kigali,Rwanda',
@@ -30,7 +30,7 @@ export const BestSellerData = [
         discount: '199',
     },
     {
-        photo: 'http://localhost:3000/mhotel.jpg',
+        photo: 'https://bookly-roan.vercel.app/mhotel.jpg',
         rate: '4.4',
         HotelName: 'M Hotel',
         location: 'Kigali,Rwanda',
@@ -40,7 +40,7 @@ export const BestSellerData = [
         discount: '199',
     },
     {
-        photo: 'http://localhost:3000/dove.jpg',
+        photo: 'https://bookly-roan.vercel.app/dove.jpg',
         rate: '4.4',
         HotelName: 'Dove Hotel Kigali',
         location: 'Kigali,Rwanda',
@@ -50,7 +50,7 @@ export const BestSellerData = [
         discount: '199',
     },
     {
-        photo: 'http://localhost:3000/boa.jpg',
+        photo: 'https://bookly-roan.vercel.app/boa.jpg',
         rate: '4.4',
         HotelName: 'Baobab Hotel Kigal',
         location: 'Kigali,Rwanda',

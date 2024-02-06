@@ -12,7 +12,7 @@ export default function Wishlist() {
         </div>
         <div className='grid grid-cols-2 gap-3 mt-2 '>
             <div className=''>
-                <div className="bg-[url('http://localhost:3000/nairobi.jpg')] bg-cover flex justify-end px-2 py-2 rounded w-full h-[500px] my-1">
+                <div className="bg-[url('https://bookly-roan.vercel.app/nairobi.jpg')] bg-cover flex justify-end px-2 py-2 rounded w-full h-[500px] my-1">
                     <div className='bg-white w-[40px] rounded px-3 py-2  h-[30px]'>
                         <AiOutlineHeart />
                     </div>
@@ -25,7 +25,7 @@ export default function Wishlist() {
                 </div>
             </div>
             <div className=''>
-                <div className="bg-[url('http://localhost:3000/Figure.jpg')] bg-cover flex justify-end px-2 py-2 rounded w-full h-[500px] mt-1">
+                <div className="bg-[url('https://bookly-roan.vercel.app/Figure.jpg')] bg-cover flex justify-end px-2 py-2 rounded w-full h-[500px] mt-1">
                     <div className='bg-white w-[40px] rounded px-3 py-2  h-[30px]'>
                         <AiOutlineHeart />
                     </div>

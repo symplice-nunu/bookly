@@ -2,12 +2,10 @@ import React from 'react'
 import 'flowbite';
 import SlidingImages from '../Slide/SlidingImages';
 import { navData } from '../../Data/navData';
-import { Link, useLocation } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import SecondNavbar from './SecondNavbar';
 
 export default function BodyText() {
-const location = useLocation();
-const active = location.pathname;
   return (
     <div className='relative'>
             <SlidingImages />
@@ -24,7 +22,7 @@ const active = location.pathname;
                                 navData.map((item) => {
                                     return(
                                         <Link to={item.path}>
-                                        <div className={`${item.Hotels === "Hotels" ? "bg-white text-[#5caba3] rounded" : null} px-7 text-white py-3 `}>{item.Hotels}</div>
+                                        <div className={`${item.Hotels === "Hotels" ? "bg-white text-teal-500 rounded" : null} px-7 text-white py-3 `}>{item.Hotels}</div>
                                         </Link>
                                     )
                                 })

@@ -1,7 +1,7 @@
 export const UpComingEventData = [
     {
         type: '1',
-        photo: 'http://localhost:3000/yaris.jpg',
+        photo: 'https://bookly-roan.vercel.app/yaris.jpg',
         rate: '50 Reviews',
         HotelName: 'JAN 20TH, 2019',
         location: 'Conference in Rwanda',
@@ -12,7 +12,7 @@ export const UpComingEventData = [
     },
     {
         type: '1',
-        photo: 'http://localhost:3000/v8.jpg',
+        photo: 'https://bookly-roan.vercel.app/v8.jpg',
         rate: '50 Reviews',
         HotelName: 'JAN 20TH, 2019',
         location: 'Conference in Rwanda',
@@ -23,7 +23,7 @@ export const UpComingEventData = [
     },
     {
         type: '1',
-        photo: 'http://localhost:3000/coaster.jpg',
+        photo: 'https://bookly-roan.vercel.app/coaster.jpg',
         rate: '50 Reviews',
         HotelName: 'JAN 20TH, 2019',
         location: 'Conference in Rwanda',
@@ -34,7 +34,7 @@ export const UpComingEventData = [
     },
     {
         type: '2',
-        photo: 'http://localhost:3000/yaris.jpg',
+        photo: 'https://bookly-roan.vercel.app/yaris.jpg',
         rate: '50 Reviews',
         HotelName: 'JAN 20TH, 2019',
         location: 'Conference in Rwanda',
@@ -45,7 +45,7 @@ export const UpComingEventData = [
     },
     {
         type: '2',
-        photo: 'http://localhost:3000/v8.jpg',
+        photo: 'https://bookly-roan.vercel.app/v8.jpg',
         rate: '50 Reviews',
         HotelName: 'JAN 20TH, 2019',
         location: 'Conference in Rwanda',
@@ -56,7 +56,7 @@ export const UpComingEventData = [
     },
     {
         type: '2',
-        photo: 'http://localhost:3000/coaster.jpg',
+        photo: 'https://bookly-roan.vercel.app/coaster.jpg',
         rate: '50 Reviews',
         HotelName: 'JAN 20TH, 2019',
         location: 'Conference in Rwanda',

@@ -2,18 +2,16 @@ import React from 'react'
 import usaLogo from '../../assets/usa.png'
 import { RxTriangleDown } from 'react-icons/rx'
 import logo_bookly from '../../assets/booklimages/logo_bookly.png'
-import { Link, useLocation } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 export default function SecondNavbar() {
-    const location = useLocation();
-    const active = location.pathname
   return (
     // <div class="flex justify-center absolute w-[100%] z-[1]">
     <div class="">
         <div className='flex items-center justify-between text-white px-[150px] text-[12px]'>
             <div className='pl-9'>
                 <Link to='/'>
-                    <div className='py-4'><img className='h-[80px]' src={logo_bookly} /></div>
+                    <div className='py-4'><img className='h-[80px]' src={logo_bookly} alt='booly logo' /></div>
                 </Link>
             </div>
             <div className='border-2 rounded-full px-6 flex gap-8 py-2 '>
@@ -33,7 +31,7 @@ export default function SecondNavbar() {
                 </div>
                 <div className='flex space-x-4 pt-3'>
                     <div className='flex space-x-1 pt-1'>
-                        <div><img className='h-[15px]' src={usaLogo} /></div>
+                        <div><img className='h-[15px]' src={usaLogo} alt='usa logo' /></div>
                         <div><RxTriangleDown /></div>
                     </div>
                     <div className='flex space-x-1'>

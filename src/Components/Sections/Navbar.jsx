@@ -13,7 +13,7 @@ export default function Navbar() {
     <div class="flex justify-center absolute w-[100%]">
         <div className='flex items-center justify-between text-white px-[110px] text-[12px] header'>
             <Link to='/'>
-            <div className='py-4'><img className='h-[40px]' src={logo_bookly} /></div>
+            <div className='py-4'><img className='h-[40px]' src={logo_bookly} alt="bookly logo" /></div>
             </Link>
             <div className='flex py-8'>
                 {
@@ -31,7 +31,7 @@ export default function Navbar() {
             </div>
             <div className='flex space-x-4 py-8'>
                 <div className='flex space-x-1 pt-1'>
-                    <div><img className='h-[15px]' src={usaLogo} /></div>
+                    <div><img className='h-[15px]' src={usaLogo} alt='usa logo' /></div>
                     <div><RxTriangleDown /></div>
                 </div>
                 <div className='flex space-x-1'>

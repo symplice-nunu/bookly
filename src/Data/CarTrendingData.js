@@ -1,7 +1,7 @@
 export const CarTrendingData = [
     {
         type: '1',
-        photo: 'http://localhost:3000/yaris.jpg',
+        photo: 'https://bookly-roan.vercel.app/yaris.jpg',
         rate: '50 Reviews',
         HotelName: 'Toyota Yaris',
         location: '2017',
@@ -12,7 +12,7 @@ export const CarTrendingData = [
     },
     {
         type: '1',
-        photo: 'http://localhost:3000/v8.jpg',
+        photo: 'https://bookly-roan.vercel.app/v8.jpg',
         rate: '50 Reviews',
         HotelName: 'Toyota Landcruiser v8',
         location: '2018',
@@ -23,7 +23,7 @@ export const CarTrendingData = [
     },
     {
         type: '1',
-        photo: 'http://localhost:3000/coaster.jpg',
+        photo: 'https://bookly-roan.vercel.app/coaster.jpg',
         rate: '50 Reviews',
         HotelName: 'Toyota Coaster 29 Seats',
         location: '2018',
@@ -33,7 +33,7 @@ export const CarTrendingData = [
         discount: '199',
     },
     {
-        photo: 'http://localhost:3000/yaris.jpg',
+        photo: 'https://bookly-roan.vercel.app/yaris.jpg',
         rate: '50 Reviews',
         HotelName: 'Toyota Yaris',
         location: '2017',
@@ -43,7 +43,7 @@ export const CarTrendingData = [
         discount: '199',
     },
     {
-        photo: 'http://localhost:3000/v8.jpg',
+        photo: 'https://bookly-roan.vercel.app/v8.jpg',
         rate: '50 Reviews',
         HotelName: 'Toyota Landcruiser v8',
         location: '2018',
@@ -53,7 +53,7 @@ export const CarTrendingData = [
         discount: '199',
     },
     {
-        photo: 'http://localhost:3000/coaster.jpg',
+        photo: 'https://bookly-roan.vercel.app/coaster.jpg',
         rate: '50 Reviews',
         HotelName: 'Toyota Coaster 29 Seats',
         location: '2018',
